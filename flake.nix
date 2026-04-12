@@ -16,10 +16,9 @@
       nixosModules.default =
         { pkgs, ... }:
         {
-          imports = [ ./kaled.nix ];
-
-          environment.systemPackages = [
-            (pkgs.callPackage ./kale.nix { })
+          imports = [
+            ./kale.nix
+            ./kaled.nix
           ];
         };
     };
