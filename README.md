@@ -1,3 +1,6 @@
+> [!NOTE]
+> merged into [anturated/nix-config](https://github.com/anturated/nix-config)
+
 ## Installation
 Kale uses a daemon for power control, so you need to add it to your config:
 ```nix
